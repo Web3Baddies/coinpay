@@ -16,8 +16,10 @@ export default function PaymentForm() {
   const [useContract, setUseContract] = useState(true);
 
   useEffect(() => {
-    // Get contract address from environment or use default
-    const address = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || '';
+    // Get contract address from environment or use the deployed Base Mainnet contract
+    const defaultContract = '0xDEAacF20A0A7f660e548eaD6aeBd132b58614B06';
+    const address =
+      process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || defaultContract;
     setContractAddress(address);
   }, []);
 

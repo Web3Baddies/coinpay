@@ -9,6 +9,11 @@ A modern, secure cryptocurrency payment gateway built with Next.js and WalletCon
 
 ## 🚀 Features
 
+### On-Chain Deployment
+- **Network**: Base Mainnet (Chain ID `8453`)
+- **Contract**: `0xDEAacF20A0A7f660e548eaD6aeBd132b58614B06`
+- **Explorer**: https://basescan.org/address/0xDEAacF20A0A7f660e548eaD6aeBd132b58614B06
+
 ### Core Functionality
 - **🔗 Wallet Connection**: Connect your crypto wallet using WalletConnect protocol
 - **💸 Payment Processing**: Send Ethereum (ETH) payments to any address
